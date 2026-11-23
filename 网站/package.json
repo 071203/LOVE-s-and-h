@@ -1,0 +1,27 @@
+{
+  "name": "us-time-capsule",
+  "version": "1.0.0",
+  "description": "情侣专属纪念网站：倒计时、共享相册、共享音乐、自定义背景，零外部运行时依赖，开箱即跑。",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seo:sitemap": "node scripts/generate-sitemap.mjs",
+    "test": "node --test tests/site-music.test.js tests/views-seo.test.js tests/r2-storage.test.js tests/pet-sim.test.js tests/pet-store.test.js tests/pet-api.test.js tests/views-pets.test.js",
+    "test:pets:e2e": "node tests/e2e/pets.mjs"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "keywords": [
+    "couple",
+    "anniversary",
+    "memory",
+    "album",
+    "nodejs",
+    "sqlite"
+  ],
+  "license": "MIT",
+  "dependencies": {}
+}

@@ -1,0 +1,34 @@
+{
+  "privacy": "Source photos remain private build inputs and must never be copied to public/.",
+  "pets": {
+    "tom": {
+      "display_name": "TOM",
+      "species": "cat",
+      "sources": [
+        { "file": "body-play.jpg", "role": "primary-body" },
+        { "file": "side.jpg", "role": "side-profile" },
+        { "file": "three-quarter.jpg", "role": "three-quarter" },
+        { "file": "face-front.jpg", "role": "face" },
+        { "file": "curled-top.jpg", "role": "sleep" },
+        { "file": "paw.jpg", "role": "paw" },
+        { "file": "play.jpg", "role": "play" },
+        { "file": "eat.jpg", "role": "eat" }
+      ]
+    },
+    "pipi": {
+      "display_name": "皮皮",
+      "species": "dog",
+      "sources": [
+        { "file": "standing-front.jpg", "role": "primary-body" },
+        { "file": "side.jpg", "role": "side-profile" },
+        { "file": "face-front.jpg", "role": "face" },
+        { "file": "happy-face.jpg", "role": "expression" },
+        { "file": "sleep.jpg", "role": "sleep" },
+        { "file": "paw.jpg", "role": "paw" },
+        { "file": "chew.jpg", "role": "toy" },
+        { "file": "wet.jpg", "role": "wet-fur" },
+        { "file": "back.jpg", "role": "back" }
+      ]
+    }
+  }
+}
