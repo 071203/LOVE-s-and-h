@@ -1,11 +1,9 @@
 {
-  "builds": [
+  "rewrites": [
     {
-      "src": "网站/index.html",
-      "use": "@vercel/static"
+      "source": "/",
+      "destination": "/index.html"
     }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/网站/$1" }
   ]
 }
+
