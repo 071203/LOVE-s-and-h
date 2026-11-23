@@ -1,0 +1,11 @@
+{
+  "builds": [
+    {
+      "src": "网站/index.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/网站/$1" }
+  ]
+}
